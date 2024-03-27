@@ -136,7 +136,8 @@
                         tabindex="0"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form netlify>
+                    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
